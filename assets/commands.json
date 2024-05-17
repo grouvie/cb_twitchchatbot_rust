@@ -1,0 +1,32 @@
+[
+    {
+        "name": "ping",
+        "response": "pong",
+        "cooldown_in_s": "10",
+        "cooldown_scope": "global"
+    },
+    {
+        "name": "codewars",
+        "response": "Time for a round of codewars!",
+        "cooldown_in_s": "60",
+        "cooldown_scope": "global"
+    },
+    {
+        "name": "hug {name}",
+        "response": "{sender} hugs {name}",
+        "cooldown_in_s": "20",
+        "cooldown_scope": "user"
+    },
+    {
+        "name": "brave {name} {amount}",
+        "response": "{name} ignores {amount} warnings.",
+        "cooldown_in_s": "60",
+        "cooldown_scope": "user"
+    },
+    {
+        "name": "rile {name} {victim}",
+        "response": "{name} throws a tomato at {victim}.",
+        "cooldown_in_s": "60",
+        "cooldown_scope": "global"
+    }
+]
